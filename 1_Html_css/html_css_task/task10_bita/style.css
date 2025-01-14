@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    text-transform: capitalize;
+}
+.title{
+    position:fixed;
+    flex: 30%;
+    padding: 15px;
+}
+.title_item{
+    border: 1px solid black;
+    margin: 15px 0;
+    width: 80%;
+    padding:10px 5px;
+}
+.title_item a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.content{
+    flex: 70%;
+    padding:0 20px; 
+    position: absolute;
+    left: 310px;
+}
+.item{
+    margin: 30px 0;
+    width: 70%;
+}
+.item h2{
+    margin-bottom: 20px;
+}

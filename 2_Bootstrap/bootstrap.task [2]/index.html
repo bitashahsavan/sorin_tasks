@@ -1,0 +1,1379 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--* bootstrap cdn -->
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+        <!-- Bootstrap CSS for rtl -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css" integrity="sha384-gXt9imSW0VcJVHezoNQsP+TNrjYXoGcrqBZJpry9zJt8PCQjobwmhMGaDHTASo9N" crossorigin="anonymous">
+
+        <!-- bootstrap icon -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+        <!-- fonawsome icon -->
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <!-- jquery cdn -->
+        <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+        <!-- css -->
+        <link rel="stylesheet" href="style.css">
+        <title>bootstrap task</title>
+    </head>
+    <body>
+        <!-- !top navbar start -->
+        <!-- <div class="container-fluid  bg-light px-5 d-none d-lg-block top-navbar">
+            <div class="row gx-0 align-items-center fs-2">
+                <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-2 ">
+                    <div class="d-flex flex-wrap">
+                        <a href="" class="text-muted small me-4 text-decoration-none">
+                            <i class="fas fa-map-marker-alt  me-2 text-primary"></i>
+                            Find A Location
+                        </a>
+                        <a href="" class="text-muted small me-4 text-decoration-none ">
+                            <i class="fas fa-phone text-primary"></i>
+                            +01234567890
+                        </a>
+                        <a href="" class="text-muted small me-4 text-decoration-none">
+                            <i class="fas fa-envelope text-primary"></i>
+                           example@gmail.com
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center text-lg-end text-lg-start mb-2 mb-lg-2 ">
+                    <div class="d-inline-flex align-items-center" style="height: 45px;">
+                        <a href="" class="small me-0 text-decoration-none">
+                            <small class="me-3 text-dark d-flex align-items-center">
+                                <i class="fa fa-user   text-primary mx-3"></i>
+                                register
+                            </small>
+                        </a>
+                        <a href="" class="small me-4 text-decoration-none">
+                            <small class="me-3 text-dark d-flex align-items-center">
+                                <i class="fa fa-sign-in-alt text-primary  mx-3"></i>
+                                login
+                            </small>
+                        </a>
+                        <div class="dropdown me-4 ">
+                            <a class=" dropdown-toggle text-dark text-decoration-none fs-4 d-flex align-items-center" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                <small>
+                                    <i class="fa fa-home text-primary mx-1"></i>
+                                </small>
+                                My Dashboard
+                            </a>
+                            <ul class="dropdown-menu rounded dropdown-dashboard fs-5" aria-labelledby="dropdownMenuLink" >
+                              <li><a class="dropdown-item" href="#"><i class="fas fa-user-alt mx-2" ></i>My Profile</a></li>
+                              <li><a class="dropdown-item" href="#"><i class="fas fa-comment-alt mx-2" ></i>Inbox</a></li>
+                              <li><a class="dropdown-item" href="#"><i class="fas fa-bell mx-2" ></i>Notification</a></li>
+                              <li><a class="dropdown-item" href="#"><i class="fas fa-cog mx-2" ></i>Account Setting</a></li>
+                              <li><a class="dropdown-item" href="#"><i class="fas fa-power-off mx-2" ></i>Log Out</a></li>
+                            </ul>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+        <!-- !header is here start-->
+        <div class="container-fluid position-relative p-0 header">
+            <!-- *main navbar is here -->
+            <nav class="navbar navbar-expand-md navbar-scroll  bg-transparent px-4  fs-4" id="navbar">
+                <a href="#" class="navbar-brand">
+                    <h1 class="text-primary logo">
+                        <i class="fas fa-search-dollar me-3"></i>
+                        stocker
+                    </h1>
+                </a>
+                <!-- hamberger icon -->
+                <div class="ham-container">
+                    <button class="navbar-toggler "
+                    type="button" 
+                    data-bs-toggle="collapse" 
+                    data-bs-target="#navbarSupportedContent" 
+                    aria-controls="navbarSupportedContent" 
+                    aria-expanded="false" 
+                    aria-label="Toggle navigation">
+                    <i class="fas fa-bars navbar-toggler-icon"></i>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse fs-3 " id="navbarSupportedContent">
+                    <div class="navbar-nav me-auto ">
+                            <a class="nav-item nav-link active text-primary mx-3 py-5 px-3 " aria-current="page" href="#">Home</a>
+                            <a class="nav-item nav-link text-light mx-3 py-5 px-3" aria-current="page" href="#">About</a>
+                            <a class="nav-item nav-link text-light mx-3 py-5 px-3" aria-current="page" href="#">Services</a>
+                            <a class="nav-item nav-link text-light mx-3 py-5 px-3" aria-current="page" href="#">blogs</a>
+                            <div class="nav-item dropdown ">
+                                <a class="nav-link dropdown-toggle text-light mx-3 py-5 px-3" aria-current="page" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Pages
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Our features</a></li>
+                                    <li><a class="dropdown-item" href="#">Our team</a></li>
+                                    <li><a class="dropdown-item" href="#">testimonial</a></li>
+                                    <li><a class="dropdown-item" href="#">Our offer</a></li>
+                                    <li><a class="dropdown-item" href="#">FAQs</a></li>
+                                    <li><a class="dropdown-item" href="#">404 page</a></li>
+                                </ul>
+                            </div>
+                            <a class="nav-item nav-link text-light mx-3 py-5 px-3 " aria-current="page" href="#">Contact Us</a>
+                           
+                    </div>
+                    <a href="" class="getStarted-btn btn rounded-pill my-lg-0 flex-shrink-0 fs-3 d-none d-lg-block border-0">
+                        Get Started
+                    </a>  
+                </div>
+            </nav> 
+            
+            <!-- *carousel is here -->
+            <div id="carouselExampleAutoplaying" class="carousel slide carousel- position-relative " data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <!--item 1of carousel -->
+                  <div class="carousel-item active carousel-item-header">
+                    <img src="./image/carousel-2.jpg" class="d-block carousel-item-img" alt="...">
+                    <div class="carousel-caption d-flex flex-column align-items-sm-center">
+                        <div class="caption-content  container ">
+                            <div class="row gy-0 gx-5">
+                                <h1 class="text-uppercase text-primary fw-bold mb-4 fs-1">welcome to stoker</h2>
+                                <h1 class="display-4 text-uppercase text-white mb-4 " style="font-weight: 700;">invest your money with higher return</h1>
+                                <p class="mb-5 fs-2 fw-bold">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                    Eum voluptatem quo nulla doloremque similique? 
+                                    Quas sequi nobis aperiam dolorum nam nostrum...
+                                </p>
+                            <div class=" d-flex justify-content-center flex-shrink-0 mb-4">
+                                <a href="" class="watch-video-btn btn btn-light  rounded-pill mx-2 py-3 px-4 px-md-5  text-primary fs-2 border-0">
+                                    <i class="fas fa-play-circle "></i>
+                                    watch video
+                                </a>
+                                <a href="" class="learnMore-btn btn rounded-pill my-lg-0 flex-shrink-0 fs-3 py-3 px-5 px-md-5 mx-2 text-primary fs-2 border-0 ">
+                                    learn more
+                                </a>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-center">
+                                <h2 class="text-white me-2 fs-1">Follow Us:</h2>
+                                <div class="d-flex justify-content-end ms-2">
+                                    <a href="" class="btn btn-md-square btn-light rounded-circle me-2 border-0">
+                                        <i class="fab fa-facebook "></i>
+                                    </a>
+                                    <a href="" class="btn btn-md-square btn-light rounded-circle mx-2 border-0">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a href="" class="btn btn-md-square btn-light rounded-circle mx-2 border-0">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                    <a href="" class="btn btn-md-square btn-light rounded-circle ms-2 border-0">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            </div>
+                        </div>       
+                       
+                    </div>
+                  </div>
+                  <!-- item 2of carousel -->
+                  <div class="carousel-item carousel-item-header">
+                    <img src="./image/carousel-1.jpg" class="d-block carousel-item-img" alt="...">
+                    <div class="carousel-caption ">
+                        <div class="caption-content container">
+                           <div class="row gy-0 gx-5">
+                            <div class="text-md-center text-lg-start">
+                                <h4 class="text-uppercase text-primary fw-bold mb-4 fs-1">welcome to stoker</h4>
+                                <h1 class="display-4 text-uppercase text-white mb-4 " style="font-weight: 700;">invest your money with higher return</h1>
+                                <p class="mb-5 fs-2 fw-bold">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                    Eum voluptatem quo nulla doloremque similique? 
+                                    Quas sequi nobis aperiam dolorum nam nostrum...
+                                </p>
+                               <div class=" d-flex justify-content-center justify-content-lg-end flex-shrink-0 mb-4 ">
+                                <a href="" class="watch-video-btn btn btn-light  rounded-pill mx-2 py-3 px-4 px-md-5  text-primary fs-2 border-0">
+                                    <i class="fas fa-play-circle "></i>
+                                    watch video
+                                </a>
+                                <a href="" class="learnMore-btn btn rounded-pill my-lg-0 flex-shrink-0 fs-3 py-3 px-5 px-md-5 mx-2 text-primary fs-2 border-0 ">
+                                    learn more
+                                </a>
+                               </div>
+                               <div class="d-flex align-items-center justify-content-center justify-content-lg-end ">
+                                <h2 class="text-white me-2 fs-1">Follow Us:</h2>
+                                <div class="d-flex justify-content-end ms-2">
+                                    <a href="" class="btn btn-md-square btn-light rounded-circle me-2 border-0">
+                                        <i class="fab fa-facebook "></i>
+                                    </a>
+                                    <a href="" class="btn btn-md-square btn-light rounded-circle mx-2 border-0">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a href="" class="btn btn-md-square btn-light rounded-circle mx-2 border-0">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                    <a href="" class="btn btn-md-square btn-light rounded-circle ms-2 border-0">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                </div>
+                               </div>
+                            </div>
+                           </div>
+                        </div>
+                    </div>
+                  </div>
+                <!-- contropl button -->
+                <div class="control_button  position-absolute ">
+                    <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                        <span class="control_icon rounded-circle next_icon" aria-hidden="true"><i class="fa fa-arrow-right" aria-hidden="true"></i></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                        <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                            <span class="control_icon rounded-circle prev_icon " aria-hidden="true"><i class="fa fa-arrow-left" aria-hidden="true"></i>
+                            </span>
+                            <span class="visually-hidden">
+                                Previous
+                            </span>
+                      </button>
+                </div>
+              </div>
+            </div>
+        </div> 
+ 
+        <!-- !about section is here-->
+        <div class="container-fluid about py-5">
+            <div class="container py-5">
+                <div class="row g-5 align-items-center">
+                    <!-- about text -->
+                    <div class="col-xl-7  about_text" >
+                            <h4 class="text-primary h1">About Us</h4>
+                            <h1 class="display-3 fw-bold mb-5 my-5">Meet our company unless miss the opportunity</h1>
+                            <p class="text-muted h4 my-5 ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum velit temporibus repudiandae ipsa, eaque perspiciatis cumque incidunt tenetur sequi reiciendis.
+                            </p>
+                            <div class="row g-4">
+                                <div class="col-md-6 col-lg-6 col-xl-6">
+                                    <div class="d-flex align-items-center about-item" >
+                                        <div><i class="fas fa-lightbulb fa-5x text-primary mx-5"></i></div>
+                                        <div class="ms-4">
+                                            <h4 class="h1">Business Consuluting</h4>
+                                            <p class="text-muted h4">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-6 col-xl-6">
+                                    <div class="d-flex align-items-center about-item">
+                                        <div><i class="bi bi-bookmark-heart-fill fa-5x text-primary py-0 mx-5"></i></div>
+                                        <div class="ms-4">
+                                            <h4 class="h1">Year Of Expertise</h4>
+                                            <p class="text-muted h4">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 d-flex  align-items-center about-item">
+                                    <a href="#" class="learnMore-btn btn rounded-pill flex-shrink-0 fs-3 py-3  text-primary  border-0 " style="padding:40px;">Discover Now</a>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="d-flex align-items-center about-item">
+                                        <i class="fas fa-phone-alt fa-3x text-primary mx-5" style="transform: rotate(-270deg);"></i>
+                                        <div>
+                                            <h4 class="h1">Call Us</h4>
+                                            <p class="mb-0 fs-5 text-muted h4" style="letter-spacing: 1px;">+01234567890</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                    </div>
+                    <!-- about image -->
+                     <div class="col-xl-5 about_image ">
+                        <div class="bg-primary rounded position-relative overflow-hidden">
+                            <img src="./image/about-2.png" alt="" class="img-fluid rounded w-100">
+                            <div style="position: absolute; top: -15px; right: -15px;">
+                                <img src="./image/about-3 (1).png" class="img-fluid" alt="" style="width: 150px; height: 150px; opacity:.7">
+                            </div>
+                            <div style="position: absolute; top: -20px; left: 10px; transform: rotate(90deg);">
+                                <img src="./image/about-4.png" alt="" class="img-fluid" style="width: 100px; height: 150px; opacity:.9">
+                            </div>
+                            <div class="rounded-bottom">
+                                <img src="./image/about-5.jpg" alt="" class="img-fluid rounded-bottom w-100">
+                            </div>
+                        </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- !services section is here -->
+        <div class="container-fluid service pb-5">
+            <div class="container pb-5">
+                <div class="text-center mx-auto text_anim " style="max-width: 800px;">
+                    <h4 class="text-primary h1">Our Services</h4>
+                    <h1 class="display-3 fw-bold mb-5 my-5">We Services provided best offer</h1>
+                    <p class="mb-5 text-muted h4  text-center bg-black">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit
+                        Voluptates veniam ducimus inventore! Qui cupiditate voluptatem quisquam dolor maxime,
+                        sequi iste, totam at doloribus
+                        ,molestiae hic obcaecati tenetur. Voluptatibus, deserunt itaque.
+                    </p>
+                </div>
+                <div class="row g-5">
+                    <!-- *item1 -->
+                    <div class="col-md-6 col-lg-4">
+                            <div class="service-item item_1">
+                                <div class="service-img">
+                                    <img src="./image/service-1.jpg" alt="" class="img-fluid rounded-4 w-100">
+                                </div>
+                                <div class="rounded-bottom p-4">
+                                    <a href="#" class="h2 d-inline-block mb-4 text-decoration-none mb-5 title-item-service" > Strategy Consulting</a>
+                                    <p class="mb-4 text-muted h4 " style="line-height: 1.7;">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Tenetur, sint? Excepturi facilis neque nesciunt similique
+                                        officiis veritatis,
+                                    </p>
+                                    <a href="#" class="btn learnMore-btn  rounded-pill my-5 py-2 px-5 fs-3">Learn More</a>
+                                </div>
+                            </div>
+                    </div>
+                    <!-- *item2 -->
+                    <div class="col-md-6 col-lg-4">
+                            <div class="service-item item_2">
+                                <div class="service-img">
+                                    <img src="./image/service-2.jpg" alt="" class="img-fluid rounded-4 w-100">
+                                </div>
+                                <div class="rounded-bottom p-4">
+                                    <a href="#" class="h2 d-inline-block mb-4 text-decoration-none mb-5 title-item-service"> Financial Advisory</a>
+                                    <p class="mb-4 text-muted h4 " style="line-height: 1.7;">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Tenetur, sint? Excepturi facilis neque nesciunt similique
+                                        officiis veritatis,
+                                    
+                                    </p>
+                                    <a href="#" class="btn learnMore-btn  rounded-pill my-5 py-2 px-5 fs-3">Learn More</a>
+                                </div>
+                            </div>
+                    </div>
+                    <!-- *item3 -->
+                    <div class="col-md-6 col-lg-4">
+                            <div class="service-item item_3">
+                                <div class="service-img">
+                                    <img src="./image/service-3.jpg" alt="" class="img-fluid rounded-4 w-100">
+                                </div>
+                                <div class="rounded-bottom p-4">
+                                    <a href="#" class="h2 d-inline-block mb-4 text-decoration-none mb-5 title-item-service"> Managements</a>
+                                    <p class="mb-4 text-muted h4 " style="line-height: 1.7;">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Tenetur, sint? Excepturi facilis neque nesciunt similique
+                                        officiis veritatis,
+                                    
+                                    </p>
+                                    <a href="#" class="btn learnMore-btn  rounded-pill my-5 py-2 px-5 fs-3">Learn More</a>
+                                </div>
+                            </div>
+                    </div>
+                    <!-- *item4 -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="service-item item_1">
+                            <div class="service-img">
+                                <img src="./image/service-4.jpg" alt="" class="img-fluid rounded-4 w-100">
+                            </div>
+                            <div class="rounded-bottom p-4">
+                                <a href="#" class="h2 d-inline-block mb-4 text-decoration-none mb-5 title-item-service"> Supply Optimization</a>
+                                <p class="mb-4 text-muted h4 " style="line-height: 1.7;">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Tenetur, sint? Excepturi facilis neque nesciunt similique
+                                    officiis veritatis,
+                                 
+                                </p>
+                                <a href="#" class="btn learnMore-btn  rounded-pill my-5 py-2 px-5 fs-3">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- *item5 -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="service-item item_2">
+                            <div class="service-img">
+                                <img src="./image/service-5.jpg" alt="" class="img-fluid rounded-4 w-100">
+                            </div>
+                            <div class="rounded-bottom p-4">
+                                <a href="#" class="h2 d-inline-block mb-4 text-decoration-none mb-5 title-item-service"> Hr Consulting</a>
+                                <p class="mb-4 text-muted h4 " style="line-height: 1.7;">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Tenetur, sint? Excepturi facilis neque nesciunt similique
+                                    officiis veritatis,
+                                 
+                                </p>
+                                <a href="#" class="btn learnMore-btn  rounded-pill my-5 py-2 px-5 fs-3">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- *item6 -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="service-item item_3">
+                            <div class="service-img">
+                                <img src="./image/service-6.jpg" alt="" class="img-fluid rounded-4 w-100">
+                            </div>
+                            <div class="rounded-bottom p-4">
+                                <a href="#" class="h2 d-inline-block mb-4 text-decoration-none mb-5 title-item-service">Marketing Consulting</a>
+                                <p class="mb-4 text-muted h4 " style="line-height: 1.7;">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Tenetur, sint? Excepturi facilis neque nesciunt similique
+                                    officiis veritatis,
+                                 
+                                </p>
+                                <a href="#" class="btn learnMore-btn  rounded-pill my-5 py-2 px-5 fs-3">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--! features section is here  -->
+        <div class="container-fluid feature pb-5">
+            <div class="container pb-5">
+                <div class="text-center mx-auto my-5 py-5 text_anim "style="max-width: 800px;">
+                    <h4 class="text-primary h1">Our Features</h4>
+                    <h1 class="display-3 fw-bold mb-5 my-5">Connecting businesses, ideas, and people for greater impact.</h1>
+                    <p class="mb-5 text-muted h4  text-center">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo consectetur, facilis fuga excepturi eius saepe.
+                        Consequatur earum, alias,
+                        erspiciatis aperiam aut consectetur est eveniet cum suscipit, itaque rerum facere. Est.                    
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <!--* item1 -->
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="feature-item p-5 mx-2  d-flex flex-column align-items-center item_1" style="line-height: 3.5;">
+                            <div class="feature-icon p-4 mb-5">
+                                <i class="fas fa-chart-line fa-4x text-primary"></i>
+                            </div>
+                            <h4 class="h2">Global Management</h4>
+                            <p class="mb-4 text-muted h4"style="line-height: 1.7;">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea hic laborum odit pariatur...
+                            </p>
+                            <a href="#" class="btn learnMore-btn  rounded-pill py-2 px-5  fs-4 fw-bold">Learn More</a>
+                        </div>
+                    </div>
+                     <!--* item2 -->
+                     <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="feature-item p-5 mx-2  d-flex flex-column align-items-center item_2">
+                            <div class="feature-icon p-4 mb-4">
+                                <i class="fas fa-university fa-4x text-primary"></i>
+                            </div>
+                            <h4 class="h2">Corporate Banking</h4>
+                            <p class="mb-4 text-muted h4"style="line-height: 1.7;">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea hic laborum odit pariatur...
+                            </p>
+                            <a href="#" class="btn learnMore-btn  rounded-pill py-2 px-5 fs-4 fw-bold">Learn More</a>
+                        </div>
+                    </div>
+                     <!--* item3 -->
+                     <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="feature-item p-5 mx-2  d-flex flex-column align-items-center item_3">
+                            <div class="feature-icon p-4 mb-4">
+                                <i class="fas fa-file-alt fa-4x text-primary"></i>
+                            </div>
+                            <h4 class="h2">Asset Management</h4>
+                            <p class="mb-4 text-muted h4"style="line-height: 1.7;">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea hic laborum odit pariatur...
+                            </p>
+                            <a href="#" class="btn learnMore-btn  rounded-pill py-2 px-5 fs-4 fw-bold">Learn More</a>
+                        </div>
+                    </div>
+                     <!--* item4 -->
+                     <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="feature-item p-5 mx-2 d-flex flex-column align-items-center item_4">
+                            <div class="feature-icon p-4 mb-4">
+                                <i class="fas  fa-hand-holding-usd fa-4x text-primary"></i>
+                            </div>
+                            <h4 class="h2">Investment Bank</h4>
+                            <p class="mb-4 text-muted h4"style="line-height: 1.7;">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea hic laborum odit pariatur...
+                            </p>
+                            <a href="#" class="btn learnMore-btn  rounded-pill py-2 px-5 fs-4 fw-bold">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--! offer section is here  -->
+        <div class="container-fluid offer-section pb-5">
+            <div class="container pb-5">
+                <div class="text-center mx-auto my-5 py-5 text_anim "style="max-width: 800px;">
+                    <h4 class="text-primary h1">Our Features</h4>
+                    <h1 class="display-4 fw-bold mb-5 my-5">Benefits We offer</h1>
+                    <p class="mb-5 text-muted h4  text-center">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo consectetur,
+                         facilis fuga excepturi eius saepe.Consequatur earum, alias,
+                        erspiciatis aperiam aut consectetur est eveniet cum suscipit, itaque rerum facere. Est.                    
+                    </p>
+                </div>
+                <div class="row g-5 align-items-center">
+                    <div class="col-xl-5 ">
+                        <div class="nav nav-pills bg-light rounded p-4 w-100 offer-link mx-auto">
+                            <a href="#collapseOne" class="accordion-link active p-3 m-4 mt-5 text-decoration-none " data-bs-toggle="pill" >
+                                <h5 class="mb-5 fs-2">Lending money for investment of your new projects</h5>
+                            </a>
+                            <a href="#collapseTwo" class="accordion-link p-3 m-4 text-decoration-none" data-bs-toggle="pill">
+                                <h5 class="mb-5 fs-2">Lending money for investment of your new projects</h5>
+                            </a>
+                            <a href="#collapseThree" class="accordion-link p-3 m-4 text-decoration-none" data-bs-toggle="pill">
+                                <h5 class="mb-5 fs-2">Mobile payment is more flexible and easy for all investors</h5>
+                            </a>
+                            <a href="#collapsefour" class="accordion-link p-3 m-4 mb-5 text-decoration-none" data-bs-toggle="pill">
+                                <h5 class="mb-5 fs-2">all transaction is kept free for the member of pro traders</h5>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xl-7">
+                        <div class="tab-content ">
+                            <!-- *item1 -->
+                            <div id="collapseOne" class="tab-pane active p-0">
+                                <div class="row g-4">
+                                    <div class="col-md-7">
+                                        <img src="./image/offer-1.jpg" class="img-fluid w-100 rounded" alt="">
+                                    </div>
+                                    <div class="col-md-5">
+                                        <h1 class="display-1 mb-4 fw-bold">The stock market provides a venue...</h1>
+                                        <p class="mb-4 text-muted h3 " >
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                            Eum blanditiis deleniti debitis ab necessitatibus aspernatur quibusdam illo hic molestiae? Molestiae ex a corrupti asperiores magnam. 
+                                            Temporibus laborum adipisci illum possimus!
+                                        </p>
+                                        <a href="#" class="btn learnMore-btn  rounded-pill py-2 px-5 fs-4 fw-bold">Learn More</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- *item2 -->
+                            <div id="collapseTwo" class="tab-pane  p-0">
+                                <div class="row g-4">
+                                    <div class="col-md-7">
+                                        <img src="./image/offer-2.jpg" class="img-fluid w-100 rounded" alt="">
+                                    </div>
+                                    <div class="col-md-5">
+                                        <h1 class="display-1 mb-4 fw-bold">The stock market provides a venue...</h1>
+                                        <p class="mb-4 text-muted h3 ">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                            Eum blanditiis deleniti debitis ab necessitatibus aspernatur quibusdam illo hic molestiae? Molestiae ex a corrupti asperiores magnam. 
+                                            Temporibus laborum adipisci illum possimus!
+                                        </p>
+                                        <a href="#" class="btn learnMore-btn  rounded-pill py-2 px-5 fs-4 fw-bold">Learn More</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- *item3 -->
+                            <div id="collapseThree" class="tab-pane  p-0">
+                                <div class="row g-4">
+                                    <div class="col-md-7">
+                                        <img src="./image/offer-3.jpg" class="img-fluid w-100 rounded" alt="">
+                                    </div>
+                                    <div class="col-md-5">
+                                        <h1 class="display-1 mb-4 fw-bold">The stock market provides a venue...</h1>
+                                        <p class="mb-4 text-muted h3">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                            Eum blanditiis deleniti debitis ab necessitatibus aspernatur quibusdam illo hic molestiae? Molestiae ex a corrupti asperiores magnam. 
+                                            Temporibus laborum adipisci illum possimus!
+                                        </p>
+                                        <a href="#" class="btn learnMore-btn  rounded-pill py-2 px-5 fs-4 fw-bold">Learn More</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- *item4 -->
+                            <div id="collapsefour" class="tab-pane  p-0 ">
+                                <div class="row g-4">
+                                    <div class="col-md-7">
+                                        <img src="./image/offer-4.jpg" class="img-fluid w-100 rounded" alt="">
+                                    </div>
+                                    <div class="col-md-5">
+                                        <h1 class="display-1 mb-4 fw-bold">The stock market provides a venue...</h1>
+                                        <p class="mb-4 text-muted h3">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                            Eum blanditiis deleniti debitis ab necessitatibus aspernatur quibusdam illo hic molestiae? Molestiae ex a corrupti asperiores magnam. 
+                                            Temporibus laborum adipisci illum possimus!
+                                        </p>
+                                        <a href="#" class="btn learnMore-btn  rounded-pill py-2 px-5 fs-4 fw-bold">Learn More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        
+        <!-- !blog section is here -->
+        <div class="container-fluid blog pb-5">
+            <div class="container pb-5">
+                <div class="text-center mx-auto pb-5 text_anim" style="max-width: 800px;">
+                    <h4 class="text-primary h1">Our Blog & News</h4>
+                    <h1 class="display-4 fw-bold mb-5 my-5">Articles For Pro Traders</h1>
+                    <p class="mb-5 text-muted h4  text-center">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo consectetur,
+                         facilis fuga excepturi eius saepe.Consequatur earum, alias,
+                        erspiciatis aperiam aut consectetur est eveniet cum suscipit, itaque rerum facere. Est.                    
+                    </p>
+                </div>
+                <div class="row mt-5">
+                    <div id="myCarousel" class="carousel slide container" data-bs-ride="carousel">
+                        <div class="carousel-inner carousel-cards w-100 ">
+                        <!-- *item1 -->
+                        <div class="carousel-item active">
+                            <div class="col-md-6 col-lg-4">
+                              <div class="card card-body blog-item p-4">
+                                    <div class="blog-img mb-4">
+                                        <img src="./image/service-1.jpg" class="card-img-top img-fluid w-100 rounded" alt="...">
+                                        <div class="blog-title">
+                                            <a href="#" class="btn rounded fs-3 " style="font-weight: 500;">Dividend Stocks</a>
+                                        </div>
+                                    </div>                                    
+                                    <div class="card-body">
+                                      <h5 class="card-title h3">Options Trading Business?</h5>
+                                      <p class="card-text fs-4 text-muted mb-4">Some quick example text to build on the Options Trading Business? and make up the bulk of the card's content.</p>
+                                      <div class="d-flex align-items-center">
+                                        <img src="./image/testimonial-2.jpg"  alt="" class="img-fluid rounded-circle" style="width: 60px; height: 60px;">
+                                        <div class="mx-4">
+                                            <h5 class="h4">Admin</h5>
+                                            <p class="mb-0 h5 text-muted">October 9, 2025</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                              </div>
+                            </div>
+                        </div>
+                        <!-- *item2 -->
+                        <div class="carousel-item ">
+                            <div class="col-md-6 col-lg-4">
+                              <div class="card card-body blog-item p-4">
+                                    <div class="blog-img mb-4">
+                                        <img src="./image/service-2.jpg" class="card-img-top img-fluid w-100 rounded" alt="...">
+                                        <div class="blog-title">
+                                            <a href="#" class="btn rounded fs-3 " style="font-weight: 500;">Dividend Stocks</a>
+                                        </div>
+                                    </div>                                    
+                                    <div class="card-body">
+                                      <h5 class="card-title h3">Options Trading Business?</h5>
+                                      <p class="card-text fs-4 text-muted mb-4">Some quick example text to build on the Options Trading Business? and make up the bulk of the card's content.</p>
+                                      <div class="d-flex align-items-center">
+                                        <img src="./image/testimonial-2.jpg"  alt="" class="img-fluid rounded-circle" style="width: 60px; height: 60px;">
+                                        <div class="mx-4">
+                                            <h5 class="h4">Admin</h5>
+                                            <p class="mb-0 h5 text-muted">October 9, 2025</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                              </div>
+                            </div>
+                        </div>
+                        <!-- *item3 -->
+                        <div class="carousel-item ">
+                            <div class="col-md-6 col-lg-4 ">
+                              <div class="card card-body blog-item p-4">
+                                    <div class="blog-img mb-4">
+                                        <img src="./image/service-3.jpg" class="card-img-top img-fluid w-100 rounded" alt="...">
+                                        <div class="blog-title">
+                                            <a href="#" class="btn rounded fs-3" style="font-weight: 500;">Non-Dividend Stocks</a>
+                                        </div>
+                                    </div> 
+                                    <div class="card-body">
+                                    <h5 class="card-title h3">Options Trading Business?</h5>
+                                    <p class="card-text fs-4 text-muted mb-4">Some quick example text to build on the Options Trading Business? and make up the bulk of the card's content.</p>
+                                    <div class="d-flex align-items-center">
+                                        <img src="./image/testimonial-1.jpg"  alt="" class="img-fluid rounded-circle" style="width: 60px; height: 60px;">
+                                        <div class="mx-4">
+                                            <h5 class="h4">Admin</h5>
+                                            <p class="mb-0 h5 text-muted">October 9, 2025</p>
+                                        </div>
+                                    </div>
+                                    </div>
+                              </div>
+                            </div>
+                        </div>
+                        <!-- *item4 -->
+                        <div class="carousel-item ">
+                            <div class="col-md-6 col-lg-4 ">
+                              <div class="card card-body blog-item p-4">
+                                    <div class="blog-img mb-4">
+                                        <img src="./image/service-4.jpg" class="card-img-top img-fluid w-100 rounded" alt="...">
+                                        <div class="blog-title">
+                                            <a href="#" class="btn rounded fs-3" style="font-weight: 500;">Dividend Stocks</a>
+                                        </div>
+                                    </div> 
+                                    <div class="card-body">
+                                    <h5 class="card-title h3">Options Trading Business?</h5>
+                                    <p class="card-text fs-4 text-muted mb-4">Some quick example text to build on the Options Trading Business? and make up the bulk of the card's content.</p>
+                                    <div class="d-flex align-items-center">
+                                        <img src="./image/testimonial-1.jpg"  alt="" class="img-fluid rounded-circle" style="width: 60px; height: 60px;">
+                                        <div class="mx-4">
+                                            <h5 class="h4">Admin</h5>
+                                            <p class="mb-0 h5 text-muted">October 9, 2025</p>
+                                        </div>
+                                    </div>
+                                    </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev blog-prev-icon visible" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next blog-next-icon" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div> 
+        </div>
+   
+        <!--! FAQ section is here  -->
+        <div class="container-fluid faq-section pb-5">
+            <div class="container pb-5">
+                <div class="text-center mx-auto pb-5 text_anim" style="max-width: 800px;">
+                    <h4 class="text-primary h1">FAQs</h4>
+                    <h1 class="display-4 fw-bold mb-5 my-5">Frequently Asked Questions</h1>
+                    <p class="mb-5 text-muted h4  text-center">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo consectetur,
+                         facilis fuga excepturi eius saepe.Consequatur earum, alias,
+                        erspiciatis aperiam aut consectetur est eveniet cum suscipit, itaque rerum facere. Est.                    
+                    </p>
+                </div>
+                <div class="row g-5 align-items-center">
+                    <div class=" col-sm-12 col-md-12 col-lg-6 about_text">
+                        <div class="accordion accordion-flush bg-light rounded p-5" id="accordionFlushExample">
+                            <!--*item1 -->
+                            <div class="accordion-item rounded-top mt-4">
+                              <h2 class="accordion-header" id="flush-headingOne" >
+                                <button class="accordion-button collapsed  py-4" 
+                                    type="button" 
+                                    data-bs-toggle="collapse" 
+                                    data-bs-target="#flush-collapseOne" 
+                                    aria-expanded="false" 
+                                    aria-controls="flush-collapseOne"
+                                    style="font-size: 2rem;font-weight: 400;">
+                                    What Does This Tool Do?<i class="fas fa-angle-down"></i>
+                                </button>
+                              </h2>
+                              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    Placeholder content for this accordion, which is intended to demonstrate the 
+                                    <code>.accordion-flush</code>
+                                    class. This is the first item's accordion body.
+                                </div>
+                              </div>
+                            </div>
+                            <!-- *item2 -->
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="flush-headingTwo">
+                                <button class="accordion-button collapsed  py-4" 
+                                    type="button" data-bs-toggle="collapse" 
+                                    data-bs-target="#flush-collapseTwo"
+                                    aria-expanded="false" 
+                                    aria-controls="flush-collapseTwo"
+                                    style="font-size: 2rem;font-weight: 400;">
+                                    What Are The Disadvantages Of Online Trading?<i class="fas fa-angle-down"></i> 
+                                </button>
+                              </h2>
+                              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    Placeholder content for this accordion, which is intended to demonstrate the 
+                                    <code>.accordion-flush</code> class.
+                                     This is the second item's accordion body. 
+                                </div>
+                              </div>
+                            </div>
+                            <!-- *item3 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingThree">
+                                  <button class="accordion-button collapsed py-4"
+                                    type="button" 
+                                    data-bs-toggle="collapse" 
+                                    data-bs-target="#flush-collapseThree" 
+                                    aria-expanded="false" 
+                                    aria-controls="flush-collapseThree"
+                                    style="font-size: 2rem;font-weight: 400;">
+                                    Is Online Trading Safe?<i class="fas fa-angle-down"></i>
+                                  </button>
+                                </h2>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                  <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                                </div>
+                            </div>
+                            <!-- *item4 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingFour">
+                                  <button class="accordion-button collapsed py-4"
+                                    type="button" 
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseFour" 
+                                    aria-expanded="false"
+                                    aria-controls="flush-collapseFour"
+                                    style="font-size: 2rem;font-weight: 400;">
+                                    What Is Online Trading, And How Dose It Work?<i class="fas fa-angle-down"></i>
+                                  </button>
+                                </h2>
+                                <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                                  <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                                </div>
+                            </div>
+                            <!-- *item5 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingFive">
+                                  <button class="accordion-button collapsed  py-4"
+                                    type="button"
+                                    data-bs-toggle="collapse" 
+                                    data-bs-target="#flush-collapseFive" 
+                                    aria-expanded="false" 
+                                    aria-controls="flush-collapseFive"
+                                    style="font-size: 2rem;font-weight: 400;">
+                                    Which App Is Best For Online Trading?<i class="fas fa-angle-down"></i>
+                                  </button>
+                                </h2>
+                                <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                                  <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                                </div>
+                            </div>
+                            <!-- *item6 -->
+                            <div class="accordion-item rounded-bottom mb-4">
+                              <h2 class="accordion-header" id="flush-headingSix">
+                                <button class="accordion-button collapsed  py-4" 
+                                    type="button" 
+                                    data-bs-toggle="collapse" 
+                                    data-bs-target="#flush-collapseSix" 
+                                    aria-expanded="false" 
+                                    aria-controls="flush-collapseSix"
+                                    style="font-size: 2rem;font-weight: 400;">
+                                    How To Create A Trading Account?<i class="fas fa-angle-down"></i>
+                                </button>
+                              </h2>
+                              <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 about_image">
+                        <div class="bg-primary rounded">
+                            <img src="./image/about-2.png" alt="" class="img-fluid w-100">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- !team section is here-->
+        <div class="container-fluid team pb-5">
+            <div class="container pb-5">
+                <div class="text-center mx-auto pb-5 text_anim" style="max-width: 800px;">
+                    <h4 class="text-primary h1">Our team</h4>
+                    <h1 class="display-4 fw-bold mb-5 my-5">Meet Our Advisers</h1>
+                    <p class="mb-5 text-muted h4  text-center">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo consectetur,
+                         facilis fuga excepturi eius saepe.Consequatur earum, alias,
+                        erspiciatis aperiam aut consectetur est eveniet cum suscipit, itaque rerum facere. Est.                    
+                    </p>
+                </div>
+                <div class="row g-4">
+                        <!-- *item1 -->
+                        <div class="col-md-6 col-lg-6 col-xl-3">
+                            <div class="team-item item_1">
+                                <div class="team-img">
+                                    <img src="./image/team-1.jpg" alt="" class="img-fluid">
+                                </div>
+                                <div class="team-title">
+                                    <h4 class="mb-0 fs-1" >David James</h4>
+                                    <p class="mb-0 fs-3 text-muted">profession</p>
+                                </div>
+                                <div class="team-icon">
+                                    <a href="#" class="btn  btn-sm-square rounded-circle me-3">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a href="#" class="btn  btn-sm-square rounded-circle me-3">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a href="#" class="btn  btn-sm-square rounded-circle me-3">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                    <a href="#" class="btn  btn-sm-square rounded-circle me-3">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- *item2 -->
+                        <div class="col-md-6 col-lg-6 col-xl-3">
+                            <div class="team-item item_2">
+                                <div class="team-img">
+                                    <img src="./image/team-2.jpg" alt="" class="img-fluid">
+                                </div>
+                                <div class="team-title">
+                                    <h4 class="mb-0 fs-1">David James</h4>
+                                    <p class="mb-0 fs-3 text-muted">profession</p>
+                                </div>
+                                <div class="team-icon">
+                                    <a href="#" class="btn btn-sm-square rounded-circle me-3">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a href="#" class="btn btn-sm-square rounded-circle me-3">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a href="#" class="btn btn-sm-square rounded-circle me-3">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                    <a href="#" class="btn btn-sm-square rounded-circle me-3">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- *item3 -->
+                        <div class="col-md-6 col-lg-6 col-xl-3">
+                            <div class="team-item item_3">
+                                <div class="team-img">
+                                    <img src="./image/team-3.jpg" alt="" class="img-fluid">
+                                </div>
+                                <div class="team-title">
+                                    <h4 class="mb-0 fs-1">David James</h4>
+                                    <p class="mb-0 fs-3 text-muted">profession</p>
+                                </div>
+                                <div class="team-icon">
+                                    <a href="#" class="btn btn-sm-square rounded-circle me-3">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a href="#" class="btn btn-sm-square rounded-circle me-3">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a href="#" class="btn btn-sm-square rounded-circle me-3">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                    <a href="#" class="btn btn-sm-square rounded-circle me-3">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- *item4 -->
+                        <div class="col-md-6 col-lg-6 col-xl-3">
+                            <div class="team-item item_4">
+                                <div class="team-img">
+                                    <img src="./image/team-4.jpg" alt="" class="img-fluid">
+                                </div>
+                                <div class="team-title">
+                                    <h4 class="mb-0 fs-1">David James</h4>
+                                    <p class="mb-0 fs-3 text-muted">profession</p>
+                                </div>
+                                <div class="team-icon">
+                                    <a href="#" class="btn btn-sm-square rounded-circle me-3">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a href="#" class="btn btn-sm-square rounded-circle me-3">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a href="#" class="btn btn-sm-square rounded-circle me-3">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                    <a href="#" class="btn btn-sm-square rounded-circle me-3">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- !testimonial section is here -->
+        <div class="container-fluid testimonial pb-5 mb-5">
+            <div class="container pb-5">
+                <div class="text-center mx-auto pb-5 mb-5 text_anim_testimonial" style="max-width: 800px;">
+                    <h4 class="text-primary h1">Testimonial</h4>
+                    <h1 class="display-4 fw-bold mb-5 my-5">Our Clients Riviews</h1>
+                    <p class="mb-5 text-muted h4  text-center">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo consectetur,
+                         facilis fuga excepturi eius saepe.Consequatur earum, alias,
+                        erspiciatis aperiam aut consectetur est eveniet cum suscipit, itaque rerum facere. Est.                    
+                    </p>
+                </div>
+                <div class="row mt-5 testimonial_anim">
+                    <div id="myCarousel-2" class="carousel slide container" data-bs-ride="carousel">
+                        <div class="carousel-inner carousel-cards w-100">
+                            <!-- *item1 -->
+                            <div class="carousel-item active">
+                                <div class="col-md-6 col-lg-4 ">
+                                    <div class=" testimonial-item ">
+                                        <div class="testimonial-quote-left">
+                                            <i class="fas fa-quote-left fa-4x"></i>                                                                                                                                                       
+                                        </div>
+                                        <div class="testimonial-img  mb-4">
+                                            <img src="./image/testimonial-1.jpg" class="img-fluid  rounded-circle" alt="...">
+                                        </div>
+                                    <div  class="fs-3 p-5 rounded-3 testimonial-item-content">
+                                        <div class="testimonial-text">
+                                            <p class="mb-0 text-muted ">
+                                                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                                Cumque vitae praesentium mollitia corporis accusamus 
+                                                dignissimos assumenda
+                                            </p>
+                                        </div>
+                                        <div class="testimonial-title d-flex justify-content-between">
+                                            <div>
+                                                <h4 class="mb-0 h1 text-black">Person Name</h4>
+                                                <p class="mb-0 h3 text-muted">Profession</p>
+                                            </div>
+                                            <div class="d-flex text-primary">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                        <div class="testimonial-quote-right">
+                                            <i class="fas fa-quote-right fa-4x"></i>
+                                        </div>
+                                    </div>  
+                                </div>
+                            </div>
+                            <!-- *item2 -->
+                            <div class="carousel-item">
+                                <div class="col-md-6 col-lg-4 ">
+                                    <div class=" testimonial-item ">
+                                        <div class="testimonial-quote-left">
+                                            <i class="fas fa-quote-left fa-4x"></i>                                                                                                                                                       
+                                        </div>
+                                        <div class="testimonial-img  mb-4">
+                                            <img src="./image/testimonial-1.jpg" class="img-fluid  rounded-circle" alt="...">
+                                        </div>
+                                    <div  class="fs-3 p-5 rounded-3 testimonial-item-content">
+                                        <div class="testimonial-text">
+                                            <p class="mb-0 text-muted ">
+                                                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                                Cumque vitae praesentium mollitia corporis accusamus 
+                                                dignissimos assumenda
+                                            </p>
+                                        </div>
+                                        <div class="testimonial-title d-flex justify-content-between">
+                                            <div>
+                                                <h4 class="mb-0 h1 text-black">Person Name</h4>
+                                                <p class="mb-0 h3 text-muted">Profession</p>
+                                            </div>
+                                            <div class="d-flex text-primary">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                        <div class="testimonial-quote-right">
+                                            <i class="fas fa-quote-right fa-4x"></i>
+                                        </div>
+                                    </div>  
+                                </div>
+                            </div>
+                            <!-- *item3 -->
+                            <div class="carousel-item">
+                                <div class="col-md-6 col-lg-4 ">
+                                    <div class=" testimonial-item ">
+                                        <div class="testimonial-quote-left">
+                                            <i class="fas fa-quote-left fa-4x"></i>                                                                                                                                                       
+                                        </div>
+                                        <div class="testimonial-img  mb-4">
+                                            <img src="./image/testimonial-1.jpg" class="img-fluid  rounded-circle" alt="...">
+                                        </div>
+                                    <div  class="fs-3 p-5 rounded-3 testimonial-item-content">
+                                        <div class="testimonial-text">
+                                            <p class="mb-0 text-muted ">
+                                                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                                Cumque vitae praesentium mollitia corporis accusamus 
+                                                dignissimos assumenda
+                                            </p>
+                                        </div>
+                                        <div class="testimonial-title d-flex justify-content-between">
+                                            <div>
+                                                <h4 class="mb-0 h1 text-black">Person Name</h4>
+                                                <p class="mb-0 h3 text-muted">Profession</p>
+                                            </div>
+                                            <div class="d-flex text-primary">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                        <div class="testimonial-quote-right">
+                                            <i class="fas fa-quote-right fa-4x"></i>
+                                        </div>
+                                    </div>  
+                                </div>
+                            </div>
+                            <!-- *item4 -->
+                            <div class="carousel-item">
+                                <div class="col-md-6 col-lg-4 ">
+                                    <div class=" testimonial-item ">
+                                        <div class="testimonial-quote-left">
+                                            <i class="fas fa-quote-left fa-4x"></i>                                                                                                                                                       
+                                        </div>
+                                        <div class="testimonial-img  mb-4">
+                                            <img src="./image/testimonial-1.jpg" class="img-fluid  rounded-circle" alt="...">
+                                        </div>
+                                    <div  class="fs-3 p-5 rounded-3 testimonial-item-content">
+                                        <div class="testimonial-text">
+                                            <p class="mb-0 text-muted ">
+                                                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                                Cumque vitae praesentium mollitia corporis accusamus 
+                                                dignissimos assumenda
+                                            </p>
+                                        </div>
+                                        <div class="testimonial-title d-flex justify-content-between">
+                                            <div>
+                                                <h4 class="mb-0 h1 text-black">Person Name</h4>
+                                                <p class="mb-0 h3 text-muted">Profession</p>
+                                            </div>
+                                            <div class="d-flex text-primary">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                        <div class="testimonial-quote-right">
+                                            <i class="fas fa-quote-right fa-4x"></i>
+                                        </div>
+                                    </div>  
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev blog-prev-icon" type="button" data-bs-target="#myCarousel-2" data-bs-slide="prev">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next blog-next-icon" type="button" data-bs-target="#myCarousel-2" data-bs-slide="next">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- !footer section is here -->
+        <div class="container-fluid footer py-5">
+            <div class="container py-5 border-start-0 border-end-0" style="border:1px solid; border-color: rgba(255, 255, 255 ,.08);">
+                <div class="row g-5">
+                    <!-- *item1 -->
+                    <div class="col-md-6 col-lg-6 col-xl-4">
+                        <div class="footer-item">
+                            <a href="index.html" class="p-0">
+                                <h4 class="text-white h1"><i class="fas fa-search-dollar mx-3"></i>Stocker</h4>
+                            </a>
+                            <p class="mb-4 fs-4" style="line-height: 3.5rem;">
+                                Dolor amet sit justo amet elitr clita ipsum elitr est.Lorem ipsum dolor sit amet, 
+                                consectetur adipiscing...
+                            </p>
+                            <div class="d-flex ">
+                                <a href="#" class="d-flex rounded align-items-center justify-content-around py-2 px-3" style="background-color: #00d084;">
+                                    <div><i class="fas fa-apple-alt text-white fs-3"></i></div>
+                                    <div class="mx-3">
+                                        <small class="text-white fs-5">Download on the</small>
+                                        <h6 class="text-white h4">App Store</h6>
+                                    </div>
+                                </a>
+                                <a href="#" class=" bg-dark d-flex rounded align-items-center justify-content-around py-2 px-3">
+                                    <div><i class="fas fa-play text-primary fs-3"></i></div>
+                                    <div class="mx-3">
+                                        <small class="text-white fs-5">Get it on</small>
+                                        <h6 class="text-white h4">Google play</h6>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- *item2 -->
+                    <div class="col-md-6 col-lg-6 col-xl-2">
+                        <div class="footer-item fs-4">
+                            <h4 class="text-white mb-4 h2">Quick Links</h4>
+                            <a href="#">
+                                <i class="fas fa-angle-right me-2"></i>
+                                About Us
+                            </a>
+                            <a href="#">
+                                <i class="fas fa-angle-right me-2"></i>
+                                Feature
+                            </a>
+                            <a href="#">
+                                <i class="fas fa-angle-right me-2"></i>
+                                Attractions
+                            </a>
+                            <a href="#">
+                                <i class="fas fa-angle-right me-2"></i>
+                                Tickets
+                            </a>
+                            <a href="#">
+                                <i class="fas fa-angle-right me-2"></i>
+                                Blog
+                            </a>
+                            <a href="#">
+                                <i class="fas fa-angle-right me-2"></i>
+                                Contact us
+                            </a>
+                        </div>
+                    </div>
+                    <!-- *item3 -->
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item fs-4 h1">
+                            <h4 class="text-white mb-4 h2">Quick Links</h4>
+                            <a href="#">
+                                <i class="fas fa-angle-right me-2"></i>
+                                Privacy Policy
+                            </a>
+                            <a href="#">
+                                <i class="fas fa-angle-right me-2"></i>
+                                Terms & Conditions
+                            </a>
+                            <a href="#">
+                                <i class="fas fa-angle-right me-2"></i>
+                                Disclaimer
+                            </a>
+                            <a href="#">
+                                <i class="fas fa-angle-right me-2"></i>
+                                Support
+                            </a>
+                            <a href="#">
+                                <i class="fas fa-angle-right me-2"></i>
+                                FAQ
+                            </a>
+                            <a href="#">
+                                <i class="fas fa-angle-right me-2"></i>
+                                Help
+                            </a>
+                        </div>
+                    </div>
+                    <!-- *item4 -->
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item">
+                            <h4 class="text-white mb-4 h2">Contact Info</h4>
+                            <div class="d-flex align-itams-center fs-3">
+                                <i class="fas fa-map-marker-alt text-primary mx-3"></i>
+                                <p class="text-white mb-0 ">123 Street New York.USA</p>
+                            </div>
+                            <div class="d-flex align-itams-center fs-3">
+                                <i class="fas fa-envelope text-primary mx-3"></i>
+                                <p class="text-white mb-0">info@example.com</p>
+                            </div>
+                            <div class="d-flex align-itams-center fs-3">
+                                <i class="fa fa-phone-alt text-primary mx-3"></i>
+                                <p class="text-white mb-0">(+012) 3456 7890</p>
+                            </div>
+                            <div class="d-flex align-itams-center fs-3">
+                                <i class="fab fa-firefox-browser text-primary mx-3"></i>
+                                <p class="text-white mb-0">Yoursite@ex.com</p>
+                            </div>
+                            <div class="d-flex my-5">
+                                <a href="#" class="btn footer-social btn-sm-square rounded-circle me-3 d-flex align-items-center">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="#" class="btn footer-social btn-sm-square rounded-circle me-3 d-flex align-items-center">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="#" class="btn footer-social btn-sm-square rounded-circle me-3 d-flex align-items-center">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                                <a href="#" class="btn footer-social btn-sm-square rounded-circle me-3 d-flex align-items-center">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- !copyright section is here -->
+        <div class="container-fluid copyright py-4">
+            <div class="container fs-3">
+                <div class="row g-4 d-flex align-items-center justify-content-between ">
+                    <div class="col-md-6 text-end text-md-end mb-md-0">
+                        <span class="text-body">
+                            <a href="#" class="border-bottem text-white ">Your site name</a>
+                            All right reserved.
+                        </span>
+                    </div>
+                    <div class="col-md-6 text-start text-md-start text-body">
+                        Designed by 
+                        <a href="#" class="border-bottem text-white">HTML Codex</a>
+                        Distributed By 
+                        <a href="#" class="border-bottem text-white"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- !back to up button -->
+        <a href="#" class="btn btn-lg-square rounded-circle back-to-up d-flex align-items-center justify-content-center">
+            <i class="fa fa-arrow-up"></i>
+        </a>
+      
+        <!-- *jquery code -->
+        <script>
+    
+                $('#myCarousel .carousel-item').each(function(){
+                    var minPerSlide = 4;
+                    var next = $(this).next();
+                    if (!next.length) {
+                    next = $(this).siblings(':first');
+                    }
+                    next.children(':first-child').clone().appendTo($(this));
+                    
+                    for (var i=0;i<minPerSlide;i++) {
+                        next=next.next();
+                        if (!next.length) {
+                            next = $(this).siblings(':first');
+                        }
+                        
+                        next.children(':first-child').clone().appendTo($(this));
+                    }
+                });
+                
+                $('#myCarousel-2 .carousel-item').each(function(){
+                    var minPerSlide = 4;
+                    var next = $(this).next();
+                    if (!next.length) {
+                    next = $(this).siblings(':first');
+                    }
+                    next.children(':first-child').clone().appendTo($(this));
+                    
+                    for (var i=0;i<minPerSlide;i++) {
+                        next=next.next();
+                        if (!next.length) {
+                            next = $(this).siblings(':first');
+                        }
+                        
+                        next.children(':first-child').clone().appendTo($(this));
+                    }
+                });
+        </script>
+        <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"
+        ></script>
+    </body>
+</html>

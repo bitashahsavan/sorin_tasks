@@ -1,0 +1,71 @@
+@font-face {
+    font-family: my_font;
+    src: url(./font/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf),
+    url(./font/Open_Sans/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:my_font ;
+    text-transform: capitalize;
+    background-color: rgb(117, 231, 144);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* title style */
+.title{
+    margin: 15px;
+}
+/* form style */
+.container{
+    margin:20px ;
+    padding:20px ;
+    background-color: #fafafa;
+    max-width: 80%;
+}
+/* text.email,age input style */
+.input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 15px 0;
+    width: 100%;
+}
+.input input{
+    padding: 10px;
+}
+.input .label{
+    margin-bottom: 8px;
+}
+/* select style */
+.select{
+    width: 100%;
+    padding: 10px;
+    font-size: 1.01rem;
+}
+.p_label{
+   margin: 20px 0 10px 0; 
+}
+/* textarea style */
+.textarea{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    resize: vertical;
+}
+/* submit button style */
+.submit_btn{
+    width: 100%;
+    height: auto;
+    padding: 8px;
+    margin: 40px 0;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(7, 176, 64);
+}
+

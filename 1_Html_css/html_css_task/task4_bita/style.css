@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 15px 100px;
+    background-color: #eceaea;
+}
+.header .logo_image{
+    width: 40%;
+    height: auto;
+}
+.header .twitter{
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.twitter .twitter_logo{
+    width: 20px;
+    margin-right: 5px;
+}
+.twitter .text{
+    font-weight: bold;
+}
+/* content */
+.content{
+    height: 70vh;
+    background-image: url(./image/bgimg_three.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    color: white; 
+}
+.content .content_item{
+    width: 40%;
+    text-align: center;
+    font-size: 1.3em;
+}
+.content_item .title{
+    font-size: 2.2em;
+    margin-bottom: 10px;
+}
+.btn{
+    margin-top: 20px;
+    font-weight: bold;
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background-color: rgb(237, 81, 81);
+    text-transform: uppercase;
+    color: white;
+}
